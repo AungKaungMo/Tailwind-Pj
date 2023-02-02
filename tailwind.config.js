@@ -14,8 +14,16 @@ module.exports = {
         },
         fontFamily: {
           inter: ['Inter'],
-          taiHeri: ['Tai Heritage Pro'],
+          taiHeri: ['"Tai Heritage Pro"'],
         }
+      },
+      inset: {
+        '-500px': '-500px',
+        '-200px': '-200px'
+      },
+      screens: {
+        'my': '900px',
+        'my2': '470px',
       },
     },
   },

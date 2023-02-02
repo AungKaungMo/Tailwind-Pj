@@ -5,9 +5,581 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+      <!----------------------  FONT AWESOME  ------------------------------------->
+      <script src="https://kit.fontawesome.com/de471be2d6.js" crossorigin="anonymous"></script>
+
+ 
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
+    <div class="bg-primary-600 min-h-screen leftRightMargin text-white">
+      <div >
+        
+        <nav class=" flex justify-between font-serif">
+          <div class="flex pt-7">
+            <img src="./img/logo.png" class="w-10 h-8">
+            <h4 class="ml-3 font-bold text-2xl ">whitepeace</h4>
+          </div>
+          <ul class="xl:flex hidden">
+            <li class="tabbar">
+              <a href="#">Products</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li class="tabbar">
+              <a href="#">Solutions</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li class="tabbar">
+              <a href="#">Resources</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li class="tabbar">
+              <a href="#">Pricing</a>
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li class="ml-6 mr-4 mt-6">
+             <button class="px-6 py-2 rounded-md text-black  bg-secondary-200 hover:bg-primary-300 hover:text-white transition ease-linear duration-150">Login</button>
+            </li>
+            <li class="mt-6 px-3 py-2 bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150"">
+             <button class="px-2">Try whitepeace free</button>
+             <i class="fa-solid fa-arrow-right"></i>
+            </li>
+          </ul>
+
+          <!-------------- Responsive navbar  ----------------------->
+          <div class="pt-7 block xl:hidden">
+            <i class="fa-solid fa-bars text-3xl cursor-pointer" id="navOpen"></i>
+            <nav class="absolute top-0 bg-secondary-400 right-[-500px] opacity-0 h-screen sm:w-96 w-full flex flex-row justify-center items-center text-center transition ease-in duration-300 " id="navOpenBox">
+              <div class="absolute top-7 right-7">
+              <i class="fa-solid fa-xmark text-2xl transform cursor-pointer hover:scale-150 transition duration-200" id="navClose"></i>
+            </div>
+              <ul class="">
+                <li class="respon">
+                  <a href="#">Products</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                </li>
+                <li class="respon">
+                  <a href="#">Solutions</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                </li>
+                <li class="respon">
+                  <a href="#">Resources</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                </li>
+                <li class="respon">
+                  <a href="#">Pricing</a>
+                  <i class="fa-solid fa-angle-down"></i>
+                </li>
+                <li class="ml-6 mr-4 mt-6">
+                 <button class="px-6 py-2 rounded-md text-black  bg-secondary-200 hover:bg-primary-300 hover:text-white transition ease-linear duration-150">Login</button>
+                </li>
+                <li class="mt-6 px-3 py-2 bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150">
+                 <button class="px-2">Try whitepeace free</button>
+                 <i class="fa-solid fa-arrow-right"></i>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+
+        </nav>
+      </div>
+      <!-------------------  END NAVBAR  ----------------------------->
+
+      <div class="firstClass"><!---------  HEADER CONTENT  ------------>
+
+        <div class="my:mt-32 mt-14">
+            <h1 class="h1Class">Get More Done with whitepace</h1> 
+            <p class="opacity-70 mt-8">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>      
+            <div class="btnDiv">
+              <button class="px-2 z-50">Try whitepeace free</button>
+              <i class="fa-solid fa-arrow-right"></i>
+             </div>
+        </div>
+
+        <div class="lg:mt-6 md:mt-20 ml-4">
+          <img src="./img/header.png" width="95%">
+        </div>
+
+      </div>
+      <div class="absolute my:top-40 bottom-0">
+        <img src="./img/ElementBg.png">
+      </div>
+    </div>
+      <!----------------  END HEADER AND NAVBAR ------------------>
+
+      <!----------------   CONTENT   ------------------------->
+
+        <div class="leftRightMargin">
+          <div class="firstClass"><!---------  HEADER CONTENT  ------------>
+
+            <div class="xl:mt-36 my:mt-20">
+                <h1 class="h1Class">Project <br>Management
+                <img src="./img/underlineElement.png" width="70%">
+                </h1> 
+                <p class="opacity-70 mt-8">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
+                <div class="btnDiv text-white">
+                  <button class="px-2">Get Started</button>
+                  <i class="fa-solid fa-arrow-right"></i>
+                 </div>
+            </div>
     
+            <div class=" ml-4 my:mt-12 xl:mt-0">
+              <img src="./img/meeting.png" class="xl:max-w-2xl ">
+            </div>
+    
+          </div>
+        </div>
+
+        <!----------------  END CONTENT   ------------------------->
+
+  <!----------------   CONTENT2   ------------------------->
+
+  <div class="leftRightMargin">
+    <div class=" flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
+
+      <div class="my:ml-24">
+          <h1 class="h1Class">Work together
+          <img src="./img/underlineElement.png" width="60%">
+          </h1> 
+          <p class="opacity-70 mt-8">With whitepace, share your notes with your colleagues and collaborate on them.
+            You can also publish a note to the internet and share the URL with others.
+            </p>      
+          <div class="btnDiv text-white">
+            <button class="px-2">Try it now</button>
+            <i class="fa-solid fa-arrow-right"></i>
+           </div>
+      </div>
+
+      <div class=" mr-5 my:mt-12 xl:mt-0">
+        <img src="./img/Work Together Image.png" width="100%">
+      </div>
+
+    </div>
+  </div>
+
+  <!----------------  END CONTENT2   ------------------------->
+
+      <!----------------   CONTENT3   ------------------------->
+
+      <div class="leftRightMargin bg-primary-600 text-white mt-10">
+        <div class="firstClass"><!---------  HEADER CONTENT  ------------>
+
+          <div class="xl:mt-36 my:mt-20">
+              <h1 class="h1Class">Use as Extension
+              <img src="./img/underlineElement.png" width="70%">
+              </h1> 
+              <p class="opacity-70 mt-8">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
+              <div class="btnDiv text-white">
+                <button class="px-2">Try it now</button>
+                <i class="fa-solid fa-arrow-right"></i>
+               </div>
+          </div>
+  
+          <div class=" ml-4 my:mt-12 xl:mt-0">
+            <img src="./img/—Pngtree—cartoon hand drawn teamwork puzzle_4978784.png" width="95%">
+          </div>
+  
+        </div>
+      </div>
+
+      <!----------------  END CONTENT3   ------------------------->
+
+        <!----------------   CONTENT4   ------------------------->
+
+  <div class="leftRightMargin">
+    <div class="flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
+
+      <div class="my:ml-8 xl:mt-36 my:mt-20">
+          <h1 class="h1Class">Customise it
+            to 
+          </h1> 
+          <h1 class="mt-0 text-4xl font-bold font-serif">your needs
+          <img src="./img/underlineElement.png" width="60%">
+          </h1> 
+          <p class="opacity-70 mt-8">Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
+            </p>      
+          <div class="btnDiv text-white">
+            <button class="px-2">Let's Go</button>
+            <i class="fa-solid fa-arrow-right"></i>
+           </div>
+      </div>
+
+      <div class=" mr-5 my:mt-12 xl:mt-0">
+        <img src="./img/extension.png" width="95%">
+      </div>
+
+    </div>
+  </div>
+
+  <!----------------  END CONTENT4  ------------------------->
+
+  <!---------------------------  PAYMENT   --------------------->
+
+      <div class="leftRightMargin mt-20">
+        <div class="flex lg:flex-nowrap flex-wrap justify-center">
+          <div class="border-2 border-secondary-200 p-5 my-9 lg:mr-7 rounded-md">
+            <h3 class="text-xl font-semibold">Free</h3>
+            <h2 class="font-bold text-3xl my-3">$ 0</h2>
+            <p class="font-semibold mb-3">Capture ideas and find them quickly</p>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Sync unlimited devices</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">10 GB monthly uploads</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">200 MB max. note size</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Customize Home dashboard and access extra widgets</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Connect primary Google Calendar account</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Add due dates, reminders, and notifications to your tasks</p>
+            </div>
+            <div class="mb-9">
+              <button class="border-2 rounded-md border-secondary-200 py-2 px-4 mt-4 hover:bg-secondary-200 transition duration-300">Get Started</button>
+            </div>
+          </div>
+         
+          <div class="border-2 bg-primary-600 p-5 text-white rounded-md">
+            <h3 class="text-xl font-semibold">Personal</h3>
+            <h2 class="font-bold text-3xl my-3 text-secondary-200">$ 11.99</h2>
+            <p class="font-semibold mb-3">Keep home and family on track</p>
+            <div class="flex mb-3">
+              <i class="fa-solid fa-gem gemPayment text-secondary-200"></i>
+              <p>Sync unlimited devices</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment text-secondary-200"></i>
+              <p>10 GB monthly uploads</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment text-secondary-200"></i>
+              <p>200 MB max. note size</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment text-secondary-200"></i>
+              <p>Customize Home dashboard and access extra widgets</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment text-secondary-200"></i>
+              <p>Connect primary Google Calendar account</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment text-secondary-200"></i>
+              <p>Add due dates, reminders, and notifications to your tasks</p>
+            </div>
+            <div class="mb-9">
+              <button class="rounded-md bg-primary-300 py-2 px-4 mt-4 hover:bg-secondary-200 hover:text-black transition duration-300">Get Started</button>
+            </div>
+          </div>
+
+          <div class="border-2 border-secondary-200 p-5 my-9 lg-ml-7 rounded-md">
+            <h3 class="text-xl font-semibold">Organization</h3>
+            <h2 class="font-bold text-3xl my-3">$ 49.99</h2>
+            <p class="font-semibold mb-3">Capture ideas and find them quickly</p>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Sync unlimited devices</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">10 GB monthly uploads</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">200 MB max. note size</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Customize Home dashboard and access extra widgets</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Connect primary Google Calendar account</p>
+            </div>
+            <div class="flex mb-4">
+              <i class="fa-solid fa-gem gemPayment"></i>
+              <p class="opacity-90">Add due dates, reminders, and notifications to your tasks</p>
+            </div>
+            <div class="mb-9">
+              <button class="border-2 rounded-md border-secondary-200 py-2 px-4 mt-4 hover:bg-secondary-200 transition duration-300">Get Started</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <!---------------------------  END PAYMENT   --------------------->
+
+    <!-------------------------   MINI SECTION   ---------------------->
+
+        <div class="bg-primary-600 mt-20 relative text-center overflow-hidden text-white">
+          <div class="absolute top-[-130px]">
+            <img src="./img/BACKGROUND.png" width="65%">
+          </div>
+          <div class="max-w-3xl m-auto mt-12">
+            <div class="my2:flex font-bold sm:text-4xl text-2xl mb-5 justify-center">
+            <h1>Your work, everywhere </h1><h1 class="relative ml-3"> you are <img src="./img/underlineElement.png" class="absolute bottom-0 right-0 my2:block hidden" width="100%"></h1>
+          </div>
+            <p class="text-sm opacity-80">Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
+            <div class="btnDiv text-white m-auto">
+              <button class="px-2">Try Tasky</button>
+              <i class="fa-solid fa-arrow-right"></i>
+             </div>
+          </div>
+        </div>
+
+    <!-------------------------   END MINI SECTION   ---------------------->
+
+    <div class="leftRightMargin mt-10">
+      <div class="firstClass"><!---------  HEADER CONTENT  ------------>
+
+        <div class="xl:mt-30 my:mt-20">
+            <h1 class="h1Class">100% your data
+            <img src="./img/underlineElement.png" width="70%">
+            </h1> 
+            <p class="opacity-70 mt-8">The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>      
+            <div class="btnDiv text-white">
+              <button class="px-2">Read more</button>
+              <i class="fa-solid fa-arrow-right"></i>
+             </div>
+        </div>
+
+        <div class=" ml-4 my:mt-12 xl:mt-10 my:pt-20">
+          <img src="./img/Element.png" class="xl:max-w-2xl my:max-w-md">
+        </div>
+
+      </div>
+    </div>
+
+    <!----------------  END CONTENT3   ------------------------->
+
+    <div class="leftRightMargin mt-20">
+      <div class="flex justify-center mb-12 font-bold text-4xl">
+        <h1>Our</h1>
+        <h1 class="relative ml-3">
+          sponsors <img src="./img/underlineElement.png" class="absolute bottom-[-10px] right-0">
+        </h1>
+      </div>
+
+      <div class="flex justify-between flex-wrap">
+        <div>
+          <img src="./img/apple.png" class="w-12">
+        </div>
+        <div>
+          <img src="./img/micro.png" class="w-36">
+        </div>
+        <div>
+          <img src="./img/slack.png" class="w-36">
+        </div>
+        <div>
+          <img src="./img/Google.png" class="w-32 mt-4">
+        </div>
+      </div>
+
+    </div>
+
+  <!----------------   CONTENT5   ------------------------->
+
+  <div class="leftRightMargin bg-primary-600 text-white mt-10">
+    <div class="flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
+
+      <div class="xl:mt-28 ml-5">
+          <h1 class="h1Class">Work with Your Favorite Apps Using whitepace
+          <img src="./img/underlineElement.png" width="70%">
+          </h1> 
+          <p class="opacity-70 mt-8">Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>      
+          <div class="btnDiv text-white">
+            <button class="px-2">Read more</button>
+            <i class="fa-solid fa-arrow-right"></i>
+           </div>
+      </div>
+
+      <div class="my:mt-12 mt-10 xl:mt-10">
+        <img src="./img/Apps.png" class="xl:max-w-lg my:max-w-md">
+      </div>
+
+    </div>
+  </div>
+
+  <!----------------  END CONTENT5   ------------------------->
+
+  <!------------------   CUSTOMER  ----------------------->
+  <div class="leftRightMargin">
+    <div class="flex justify-center">
+      <h1 class="h1Class">What our clients</h1>
+      <h1 class="h1Class relative ml-4">Says <img src="./img/underlineElement.png" class="absolute top-5 h-6 opacity-60"></h1>
+    </div>
+
+   <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mt-8">
+      <div class="rounded-md shadow-2xl p-4">
+        <div>
+          <i class="fa-solid fa-quote-left text-6xl text-primary-600"></i>
+        </div>
+        <p class=" my-5">Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+        <div class="text max-w-full h-px bg-black text-center"></div>
+        <div class="flex my-5">
+          <div >
+          <img src="./img/cus1.jpg" class=" w-20 h-20 object-cover rounded-[50%]">
+        </div>
+        <div class="ml-5">
+          <h4 class="text-lg font-bold">Nova Bryan, MCH</h4>
+          <p class="text-sm mt-3">Head of Talent Acquisition, North America</p>
+        </div>
+          
+        </div>
+      </div>
+
+      <div class="rounded-md shadow-2xl p-4 text-white bg-primary-300">
+        <div>
+          <i class="fa-solid fa-quote-left text-6xl text-white"></i>
+        </div>
+        <p class=" my-5">Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+        <div class="text max-w-full h-px bg-white text-center"></div>
+        <div class="flex my-5">
+          <div>
+          <img src="./img/cus2.jpg" class=" w-20 h-20 object-cover rounded-[50%]">
+        </div>
+        <div class="ml-5">
+          <h4 class="text-lg font-bold text-black">Alexander Chris, MCH</h4>
+          <p class="text-sm mt-3">Head of Talent Acquisition, North America</p>
+        </div>
+          
+        </div>
+      </div>
+
+      <div class="rounded-md shadow-2xl p-4 text-white bg-primary-300">
+        <div>
+          <i class="fa-solid fa-quote-left text-6xl text-white"></i>
+        </div>
+        <p class=" my-5">Whitepate is designed as a collaboration tool for businesses that is a full project management solution.</p>
+        <div class="text max-w-full h-px bg-white text-center"></div>
+        <div class="flex my-5">
+          <div>
+          <img src="./img/cus4.jpg" class=" w-20 h-20 object-cover rounded-full">
+        </div>
+        <div class="ml-5">
+          <h4 class="text-lg font-bold text-black">Miyoshi AA, CM</h4>
+          <p class="text-sm mt-3">Head of Talent Acquisition, North America</p>
+        </div>
+          
+        </div>
+      </div>
+
+
+   </div>
+  </div>
+    <!------------------   END CUSTOMER  ----------------------->
+
+    <!-------------------   FOOTER  ---------------------->
+
+      <div class="mt-12 pt-5 bg-primary-600 text-center text-white">
+        <h1 class="h1Class ">Try whitepeace <br>today</h1>
+        <p class="opacity-80 text-sm mt-3">Get started for free.<br>
+          Add your whole team as your needs grow.</p>
+          <div class=" px-3 w-max py-2 bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150 m-auto my-7">
+            <button class="px-2">Get Started</button>
+            <i class="fa-solid fa-arrow-right"></i>
+           </div>
+           <h4 class="mb-3">On a big team? Contact sales</h4>
+           <div class="text-5xl">
+            <i class="fa-brands fa-apple"></i>
+            <i class="fa-brands fa-windows mx-5"></i>
+            <i class="fa-brands fa-android"></i>
+           </div>
+
+           <div class=" mt-20 leftRightMargin text-left">
+              <div class="grid lg:grid-cols-5 gap-5 my:grid-cols-4 md:grid-cols-3 my2:grid-cols-2">
+                <div>
+                <div class="flex">
+                  <img src="./img/logo.png">
+                  <h3 class="ml-3 text-xl font-bold">whitepace</h3>
+                </div>
+                <p class="mt-4 font-thin">whitepace was created for the new ways we live and work. We make a better workspace around the world</p>
+              </div>
+            
+
+            <div class="sm:pt-0 pt-7">
+              <h3 class=" font-semibold text-lg">Product</h3>
+              <div class=" mt-3 font-thin">
+                <p class="footerEffect">Overview</p>
+                <p class="footerEffect">Pricing</p>
+                <p class="footerEffect">Customer stories</p>
+              </div>
+            </div>
+
+            <div class="md:pt-0 pt-7">
+              <h3 class=" font-semibold text-lg">Resources</h3>
+              <div class=" mt-3 font-thin">
+                <p class="footerEffect">Blog</p>
+                <p class="footerEffect">Guides & tutorials</p>
+                <p class="footerEffect">Help center</p>
+              </div>
+            </div>
+
+            <div class="my:pt-0 pt-7">
+              <h3 class=" font-semibold text-lg">Company</h3>
+              <div class=" mt-3 font-thin">
+                <p class="footerEffect">About us</p>
+                <p class="footerEffect">Careers</p>
+                <p class="footerEffect">Media kit</p>
+              </div>
+            </div>
+
+            <div class=" lg:mt-0 mt-7">
+              <div class="flex">
+                <img src="./img/logo.png">
+                <h3 class="ml-3 text-xl font-bold">Try It Today</h3>
+              </div>
+              <p class="mt-4 font-thin">Get started for free.
+                Add your whole team as your needs grow.</p>
+
+                <div class=" px-3 w-max py-2 bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150 my-5">
+                  <button class="px-2">Get Started</button>
+                  <i class="fa-solid fa-arrow-right"></i>
+                 </div>
+            </div>
+
+            </div>
+
+                <div class="mt-5 pb-6">
+                   <div class=" w-full h-px bg-white"></div>
+                  <div class="my:flex  justify-between">
+                  <div class=" flex md:flex-nowrap flex-wrap ">
+                    <div class="mt-5">
+                    <i class="fa-solid fa-globe mr-2 text-xl"></i>
+                    <span>English</span>
+                    <i class="fa-solid fa-angle-down"></i>
+                   </div>
+                  <p class=" ml-9 mt-5">Terms & privacy</p>
+                  <p class=" ml-9 mt-5">Security</p>
+                  <p class=" ml-9 mt-5">Status</p>
+                  <p class=" ml-9 mt-5">©2021 Whitepace LLC.</p>
+                  
+                  </div>
+                  <div class="mt-5 my:ml-0 ml-9 ">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter mx-6"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+           </div>
+      </div>
+
+    <!-------------------   END FOOTER   ---------------------->
+    <script src="./script.js"></script>
 </body>
 </html>

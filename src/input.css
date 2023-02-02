@@ -3,3 +3,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tabbar{
+    @apply cursor-pointer ml-11 text-sm font-thin hover:text-primary-300 transition ease-out duration-300 pt-9;
+}
+.respon{
+    @apply cursor-pointer mt-7 text-lg hover:text-primary-300 transition ease-out duration-300;
+}
+.firstClass{
+    @apply flex my:flex-row flex-col-reverse;
+}
+.h1Class{
+    @apply mt-8 text-4xl font-bold font-serif;
+}
+.leftRightMargin{
+    @apply sm:pl-24 pl-6 sm:pr-24 pr-6;
+}
+.btnDiv{
+    @apply mt-12 mb-12 px-3 w-max py-2 bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150;
+}
+.gemPayment{
+    @apply mr-3 font-thin text-lg;
+}
+.footerEffect{
+    @apply  mb-3 hover:text-secondary-200 transition duration-150 cursor-pointer;
+}
