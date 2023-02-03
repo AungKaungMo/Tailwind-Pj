@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
@@ -25,6 +26,9 @@ module.exports = {
         'my': '900px',
         'my2': '470px',
       },
+      boxShadow: {
+        fordark: '0 25px 50px -12px rgba(255, 255, 255, 0.25)',
+      }
     },
   },
   plugins: [],

@@ -28,3 +28,7 @@
 .footerEffect{
     @apply  mb-3 hover:text-secondary-200 transition duration-150 cursor-pointer;
 }
+:root{
+    lightColor: white;
+    blackColor: black;
+}

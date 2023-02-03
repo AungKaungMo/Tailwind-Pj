@@ -12,12 +12,12 @@
  
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="overflow-x-hidden">
-    <div class="bg-primary-600 min-h-screen leftRightMargin text-white">
+<body class="overflow-x-hidden dark:bg-black bg-white dark:text-white transition duration-700">
+    <div class="bg-primary-600 dark:bg-black min-h-screen leftRightMargin text-white transition duration-700">
       <div >
         
         <nav class=" flex justify-between font-serif">
-          <div class="flex pt-7">
+          <div class="flex pt-7 logo">
             <img src="./img/logo.png" class="w-10 h-8">
             <h4 class="ml-3 font-bold text-2xl ">whitepeace</h4>
           </div>
@@ -38,18 +38,25 @@
               <a href="#">Pricing</a>
               <i class="fa-solid fa-angle-down"></i>
             </li>
-            <li class="ml-6 mr-4 mt-6">
-             <button class="px-6 py-2 rounded-md text-black  bg-secondary-200 hover:bg-primary-300 hover:text-white transition ease-linear duration-150">Login</button>
+            <li class="ml-6 mr-4 mt-6 ">
+             <button class="px-6 py-2 navBtn rounded-md text-black  bg-secondary-200 hover:bg-primary-300 hover:text-white transition ease-linear duration-150">Login</button>
             </li>
-            <li class="mt-6 px-3 py-2 bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150"">
+            <li class="mt-6 px-3 py-2 navBtn bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150">
              <button class="px-2">Try whitepeace free</button>
              <i class="fa-solid fa-arrow-right"></i>
             </li>
+           
           </ul>
+          <div class="mt-7 text-3xl select-none cursor-pointer">
+            <i class="fa-solid fa-lightbulb hover:opacity-60 transition duration-100" id="day"></i>
+            <i class="fa-solid fa-moon hover:opacity-60 transition duration-100 hidden" id="night"></i>
+           </div>
 
           <!-------------- Responsive navbar  ----------------------->
           <div class="pt-7 block xl:hidden">
+            <div class="flex">
             <i class="fa-solid fa-bars text-3xl cursor-pointer" id="navOpen"></i>
+            </div>
             <nav class="absolute top-0 bg-secondary-400 right-[-500px] opacity-0 h-screen sm:w-96 w-full flex flex-row justify-center items-center text-center transition ease-in duration-300 " id="navOpenBox">
               <div class="absolute top-7 right-7">
               <i class="fa-solid fa-xmark text-2xl transform cursor-pointer hover:scale-150 transition duration-200" id="navClose"></i>
@@ -89,16 +96,16 @@
 
       <div class="firstClass"><!---------  HEADER CONTENT  ------------>
 
-        <div class="my:mt-32 mt-14">
-            <h1 class="h1Class">Get More Done with whitepace</h1> 
-            <p class="opacity-70 mt-8">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>      
-            <div class="btnDiv">
-              <button class="px-2 z-50">Try whitepeace free</button>
+        <div class="my:mt-32 mt-14 ">
+            <h1 class="h1Class headerMsg">Get More Done with whitepace</h1> 
+            <p class="opacity-70 mt-8 headerMsg">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>      
+            <div class="btnDiv headerMsg">
+              <button class="px-2">Try whitepeace free</button>
               <i class="fa-solid fa-arrow-right"></i>
              </div>
         </div>
 
-        <div class="lg:mt-6 md:mt-20 ml-4">
+        <div class="lg:mt-6 md:mt-20 ml-4 headerImg">
           <img src="./img/header.png" width="95%">
         </div>
 
@@ -115,11 +122,11 @@
           <div class="firstClass"><!---------  HEADER CONTENT  ------------>
 
             <div class="xl:mt-36 my:mt-20">
-                <h1 class="h1Class">Project <br>Management
+                <h1 class="h1Class contentMsg">Project <br>Management
                 <img src="./img/underlineElement.png" width="70%">
                 </h1> 
-                <p class="opacity-70 mt-8">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
-                <div class="btnDiv text-white">
+                <p class="opacity-70 mt-8 contentMsg">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
+                <div class="btnDiv contentMsg text-white ">
                   <button class="px-2">Get Started</button>
                   <i class="fa-solid fa-arrow-right"></i>
                  </div>
@@ -191,7 +198,7 @@
   <div class="leftRightMargin">
     <div class="flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
 
-      <div class="my:ml-8 xl:mt-36 my:mt-20">
+      <div class="my:ml-8 xl:mt-36 my:mt-20 ">
           <h1 class="h1Class">Customise it
             to 
           </h1> 
@@ -217,7 +224,7 @@
 
   <!---------------------------  PAYMENT   --------------------->
 
-      <div class="leftRightMargin mt-20">
+      <div class="leftRightMargin mt-20 ">
         <div class="flex lg:flex-nowrap flex-wrap justify-center">
           <div class="border-2 border-secondary-200 p-5 my-9 lg:mr-7 rounded-md">
             <h3 class="text-xl font-semibold">Free</h3>
@@ -252,7 +259,7 @@
             </div>
           </div>
          
-          <div class="border-2 bg-primary-600 p-5 text-white rounded-md">
+          <div class="bg-primary-600 p-5 text-white rounded-md">
             <h3 class="text-xl font-semibold">Personal</h3>
             <h2 class="font-bold text-3xl my-3 text-secondary-200">$ 11.99</h2>
             <p class="font-semibold mb-3">Keep home and family on track</p>
@@ -285,7 +292,7 @@
             </div>
           </div>
 
-          <div class="border-2 border-secondary-200 p-5 my-9 lg-ml-7 rounded-md">
+          <div class="border-2 border-secondary-200 p-5 my-9 lg:ml-7 rounded-md">
             <h3 class="text-xl font-semibold">Organization</h3>
             <h2 class="font-bold text-3xl my-3">$ 49.99</h2>
             <p class="font-semibold mb-3">Capture ideas and find them quickly</p>
@@ -424,7 +431,7 @@
     </div>
 
    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mt-8">
-      <div class="rounded-md shadow-2xl p-4">
+      <div class="rounded-md shadow-2xl dark:shadow-fordark p-4">
         <div>
           <i class="fa-solid fa-quote-left text-6xl text-primary-600"></i>
         </div>
@@ -442,7 +449,7 @@
         </div>
       </div>
 
-      <div class="rounded-md shadow-2xl p-4 text-white bg-primary-300">
+      <div class="rounded-md shadow-2xl p-4 text-white dark:shadow-fordark bg-primary-300">
         <div>
           <i class="fa-solid fa-quote-left text-6xl text-white"></i>
         </div>
@@ -460,7 +467,7 @@
         </div>
       </div>
 
-      <div class="rounded-md shadow-2xl p-4 text-white bg-primary-300">
+      <div class="rounded-md shadow-2xl p-4 text-white dark:shadow-fordark bg-primary-300">
         <div>
           <i class="fa-solid fa-quote-left text-6xl text-white"></i>
         </div>
@@ -580,6 +587,8 @@
       </div>
 
     <!-------------------   END FOOTER   ---------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
