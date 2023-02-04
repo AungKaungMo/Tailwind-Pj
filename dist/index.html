@@ -9,7 +9,9 @@
       <!----------------------  FONT AWESOME  ------------------------------------->
       <script src="https://kit.fontawesome.com/de471be2d6.js" crossorigin="anonymous"></script>
 
- 
+      <!-----------------------  AOS LIBRARY CSS ---------------------------->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body class="overflow-x-hidden dark:bg-black bg-white dark:text-white transition duration-700">
@@ -17,7 +19,8 @@
       <div >
         
         <nav class=" flex justify-between font-serif">
-          <div class="flex pt-7 logo">
+          <div class="flex pt-7" data-aos="fade-down"
+          data-aos-duration="1000">
             <img src="./img/logo.png" class="w-10 h-8">
             <h4 class="ml-3 font-bold text-2xl ">whitepeace</h4>
           </div>
@@ -38,10 +41,12 @@
               <a href="#">Pricing</a>
               <i class="fa-solid fa-angle-down"></i>
             </li>
-            <li class="ml-6 mr-4 mt-6 ">
+            <li class="ml-6 mr-4 mt-6 "data-aos="fade-up"
+            data-aos-duration="1500">
              <button class="px-6 py-2 navBtn rounded-md text-black  bg-secondary-200 hover:bg-primary-300 hover:text-white transition ease-linear duration-150">Login</button>
             </li>
-            <li class="mt-6 px-3 py-2 navBtn bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150">
+            <li data-aos="fade-up"
+            data-aos-duration="1800" class="mt-6 px-3 py-2 navBtn bg-primary-300 rounded-md  hover:bg-secondary-200 hover:text-black transition ease-linear duration-150">
              <button class="px-2">Try whitepeace free</button>
              <i class="fa-solid fa-arrow-right"></i>
             </li>
@@ -97,15 +102,27 @@
       <div class="firstClass"><!---------  HEADER CONTENT  ------------>
 
         <div class="my:mt-32 mt-14 ">
-            <h1 class="h1Class headerMsg">Get More Done with whitepace</h1> 
-            <p class="opacity-70 mt-8 headerMsg">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>      
-            <div class="btnDiv headerMsg">
+            <h1 class="h1Class" data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-duration="1300"
+            data-aos-easing="linear">Get More Done with whitepace</h1> 
+            <p class="opacity-70 mt-8" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-duration="1800"
+            data-aos-easing="linear">Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p>      
+            <div class="btnDiv"  data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-duration="2000"
+            data-aos-easing="linear">
               <button class="px-2">Try whitepeace free</button>
               <i class="fa-solid fa-arrow-right"></i>
              </div>
         </div>
 
-        <div class="lg:mt-6 md:mt-20 ml-4 headerImg">
+        <div class="lg:mt-6 md:mt-20 ml-4" data-aos="fade-left"
+        data-aos-offset="400"
+        data-aos-duration="2000"
+        data-aos-easing="linear">
           <img src="./img/header.png" width="95%">
         </div>
 
@@ -122,18 +139,25 @@
           <div class="firstClass"><!---------  HEADER CONTENT  ------------>
 
             <div class="xl:mt-36 my:mt-20">
-                <h1 class="h1Class contentMsg">Project <br>Management
-                <img src="./img/underlineElement.png" width="70%">
+                <h1 class="h1Class contentMsg" data-aos="fade-down"
+                data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear"
+                >Project <br>Management
+                <img src="./img/underlineElement.png" width="70%" data-aos="fade-up"
+                data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
                 </h1> 
-                <p class="opacity-70 mt-8 contentMsg">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
-                <div class="btnDiv contentMsg text-white ">
+                <p class="opacity-70 mt-8 contentMsg" data-aos="zoom-in"
+                data-aos-duration="1500" data-aos-easing="ease-linear"
+                >Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
+                <div class="btnDiv contentMsg text-white" data-aos="fade-right"
+                data-aos-duration="1600">
                   <button class="px-2">Get Started</button>
                   <i class="fa-solid fa-arrow-right"></i>
                  </div>
             </div>
     
-            <div class=" ml-4 my:mt-12 xl:mt-0">
-              <img src="./img/meeting.png" class="xl:max-w-2xl ">
+            <div class=" ml-4 my:mt-12 xl:mt-0" data-aos="fade-up"
+            data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
+              <img src="./img/meeting.png" class="xl:max-w-2xl">
             </div>
     
           </div>
@@ -147,19 +171,24 @@
     <div class=" flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
 
       <div class="my:ml-24">
-          <h1 class="h1Class">Work together
-          <img src="./img/underlineElement.png" width="60%">
+          <h1 class="h1Class" data-aos="fade-down"
+          data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">Work together
+          <img src="./img/underlineElement.png" width="60%"  data-aos="fade-up"
+          data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
           </h1> 
-          <p class="opacity-70 mt-8">With whitepace, share your notes with your colleagues and collaborate on them.
+          <p class="opacity-70 mt-8" data-aos="zoom-in"
+          data-aos-duration="1500" data-aos-easing="ease-linear">With whitepace, share your notes with your colleagues and collaborate on them.
             You can also publish a note to the internet and share the URL with others.
             </p>      
-          <div class="btnDiv text-white">
+          <div class="btnDiv text-white" data-aos="fade-right"
+          data-aos-duration="1600">
             <button class="px-2">Try it now</button>
             <i class="fa-solid fa-arrow-right"></i>
            </div>
       </div>
 
-      <div class=" mr-5 my:mt-12 xl:mt-0">
+      <div class=" mr-5 my:mt-12 xl:mt-0" data-aos="fade-up"
+      data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
         <img src="./img/Work Together Image.png" width="100%">
       </div>
 
@@ -174,17 +203,18 @@
         <div class="firstClass"><!---------  HEADER CONTENT  ------------>
 
           <div class="xl:mt-36 my:mt-20">
-              <h1 class="h1Class">Use as Extension
+              <h1 class="h1Class" data-aos="fade-up-right" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">Use as Extension
               <img src="./img/underlineElement.png" width="70%">
               </h1> 
-              <p class="opacity-70 mt-8">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
-              <div class="btnDiv text-white">
+              <p class="opacity-70 mt-8" data-aos="zoom-in"
+              data-aos-duration="1500" data-aos-easing="ease-linear">Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>      
+              <div class="btnDiv text-white" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="linear">
                 <button class="px-2">Try it now</button>
                 <i class="fa-solid fa-arrow-right"></i>
                </div>
           </div>
   
-          <div class=" ml-4 my:mt-12 xl:mt-0">
+          <div class=" ml-4 my:mt-12 xl:mt-0" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
             <img src="./img/—Pngtree—cartoon hand drawn teamwork puzzle_4978784.png" width="95%">
           </div>
   
@@ -199,21 +229,33 @@
     <div class="flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
 
       <div class="my:ml-8 xl:mt-36 my:mt-20 ">
-          <h1 class="h1Class">Customise it
+          <h1 class="h1Class" data-aos="fade-left"
+          data-aos-offset="400"
+          data-aos-duration="1300"
+          data-aos-easing="linear">Customise it
             to 
           </h1> 
-          <h1 class="mt-0 text-4xl font-bold font-serif">your needs
-          <img src="./img/underlineElement.png" width="60%">
+          <h1 class="mt-0 text-4xl font-bold font-serif" data-aos="fade-left"
+          data-aos-offset="400"
+          data-aos-duration="1300"
+          data-aos-easing="linear">your needs
+          <img src="./img/underlineElement.png" width="60%" data-aos="fade-up"
+          data-aos-duration="1200" data-aos-easing="linear">
           </h1> 
-          <p class="opacity-70 mt-8">Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
+          <p class="opacity-70 mt-8" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-duration="1800"
+          data-aos-easing="linear">Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
             </p>      
-          <div class="btnDiv text-white">
+          <div class="btnDiv text-white" data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-easing="linear">
             <button class="px-2">Let's Go</button>
             <i class="fa-solid fa-arrow-right"></i>
            </div>
       </div>
 
-      <div class=" mr-5 my:mt-12 xl:mt-0">
+      <div class=" mr-5 my:mt-12 xl:mt-0" data-aos="flip-right" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
         <img src="./img/extension.png" width="95%">
       </div>
 
@@ -226,7 +268,7 @@
 
       <div class="leftRightMargin mt-20 ">
         <div class="flex lg:flex-nowrap flex-wrap justify-center">
-          <div class="border-2 border-secondary-200 p-5 my-9 lg:mr-7 rounded-md">
+          <div class="border-2 border-secondary-200 p-5 my-9 lg:mr-7 rounded-md" data-aos="flip-up" data-aos-duration="1200" data-aos-easing="linear">
             <h3 class="text-xl font-semibold">Free</h3>
             <h2 class="font-bold text-3xl my-3">$ 0</h2>
             <p class="font-semibold mb-3">Capture ideas and find them quickly</p>
@@ -259,7 +301,7 @@
             </div>
           </div>
          
-          <div class="bg-primary-600 p-5 text-white rounded-md">
+          <div class="bg-primary-600 p-5 text-white rounded-md" data-aos="flip-down" data-aos-duration="1500" data-aos-easing="linear">
             <h3 class="text-xl font-semibold">Personal</h3>
             <h2 class="font-bold text-3xl my-3 text-secondary-200">$ 11.99</h2>
             <p class="font-semibold mb-3">Keep home and family on track</p>
@@ -292,7 +334,7 @@
             </div>
           </div>
 
-          <div class="border-2 border-secondary-200 p-5 my-9 lg:ml-7 rounded-md">
+          <div class="border-2 border-secondary-200 p-5 my-9 lg:ml-7 rounded-md" data-aos="flip-up" data-aos-duration="1800" data-aos-easing="linear">
             <h3 class="text-xl font-semibold">Organization</h3>
             <h2 class="font-bold text-3xl my-3">$ 49.99</h2>
             <p class="font-semibold mb-3">Capture ideas and find them quickly</p>
@@ -333,15 +375,15 @@
     <!-------------------------   MINI SECTION   ---------------------->
 
         <div class="bg-primary-600 mt-20 relative text-center overflow-hidden text-white">
-          <div class="absolute top-[-130px]">
+          <div class="absolute top-[-130px]" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="linear">
             <img src="./img/BACKGROUND.png" width="65%">
           </div>
           <div class="max-w-3xl m-auto mt-12">
-            <div class="my2:flex font-bold sm:text-4xl text-2xl mb-5 justify-center">
+            <div class="my2:flex font-bold sm:text-4xl text-2xl mb-5 justify-center" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="linear">
             <h1>Your work, everywhere </h1><h1 class="relative ml-3"> you are <img src="./img/underlineElement.png" class="absolute bottom-0 right-0 my2:block hidden" width="100%"></h1>
           </div>
-            <p class="text-sm opacity-80">Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
-            <div class="btnDiv text-white m-auto">
+            <p class="text-sm opacity-80" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="linear">Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
+            <div class="btnDiv text-white m-auto" data-aos="zoom-in-up" data-aos-duration="1200" data-aos-easing="linear">
               <button class="px-2">Try Tasky</button>
               <i class="fa-solid fa-arrow-right"></i>
              </div>
@@ -354,17 +396,18 @@
       <div class="firstClass"><!---------  HEADER CONTENT  ------------>
 
         <div class="xl:mt-30 my:mt-20">
-            <h1 class="h1Class">100% your data
+            <h1 class="h1Class" data-aos="fade-up-right" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">100% your data
             <img src="./img/underlineElement.png" width="70%">
             </h1> 
-            <p class="opacity-70 mt-8">The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>      
-            <div class="btnDiv text-white">
+            <p class="opacity-70 mt-8"data-aos="zoom-in"
+            data-aos-duration="1500" data-aos-easing="ease-linear">The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes and ensure no-one but yourself can access them.</p>      
+            <div class="btnDiv text-white" data-aos="fade-right" data-aos-duration="1200" data-aos-easing="linear">
               <button class="px-2">Read more</button>
               <i class="fa-solid fa-arrow-right"></i>
              </div>
         </div>
 
-        <div class=" ml-4 my:mt-12 xl:mt-10 my:pt-20">
+        <div class=" ml-4 my:mt-12 xl:mt-10 my:pt-20" data-aos="flip-left" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
           <img src="./img/Element.png" class="xl:max-w-2xl my:max-w-md">
         </div>
 
@@ -374,7 +417,7 @@
     <!----------------  END CONTENT3   ------------------------->
 
     <div class="leftRightMargin mt-20">
-      <div class="flex justify-center mb-12 font-bold text-4xl">
+      <div class="flex justify-center mb-12 font-bold text-4xl"  data-aos="fade-down" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
         <h1>Our</h1>
         <h1 class="relative ml-3">
           sponsors <img src="./img/underlineElement.png" class="absolute bottom-[-10px] right-0">
@@ -382,16 +425,16 @@
       </div>
 
       <div class="flex justify-between flex-wrap">
-        <div>
-          <img src="./img/apple.png" class="w-12">
+        <div data-aos="fade-right" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
+          <img src="./img/apple.png" class="w-16">
         </div>
-        <div>
+        <div data-aos="fade-down" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
           <img src="./img/micro.png" class="w-36">
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
           <img src="./img/slack.png" class="w-36">
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
           <img src="./img/Google.png" class="w-32 mt-4">
         </div>
       </div>
@@ -404,17 +447,26 @@
     <div class="flex my:flex-row-reverse flex-col-reverse"><!---------  HEADER CONTENT  ------------>
 
       <div class="xl:mt-28 ml-5">
-          <h1 class="h1Class">Work with Your Favorite Apps Using whitepace
-          <img src="./img/underlineElement.png" width="70%">
+          <h1 class="h1Class" data-aos="fade-left"
+          data-aos-offset="400"
+          data-aos-duration="1300"
+          data-aos-easing="linear">Work with Your Favorite Apps Using whitepace
+          <img src="./img/underlineElement.png" width="70%" data-aos="fade-up"
+          data-aos-duration="1200" data-aos-easing="linear">
           </h1> 
-          <p class="opacity-70 mt-8">Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>      
-          <div class="btnDiv text-white">
+          <p class="opacity-70 mt-8" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-duration="1800"
+          data-aos-easing="linear">Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.</p>      
+          <div class="btnDiv text-white" data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-easing="linear">
             <button class="px-2">Read more</button>
             <i class="fa-solid fa-arrow-right"></i>
            </div>
       </div>
 
-      <div class="my:mt-12 mt-10 xl:mt-10">
+      <div class="my:mt-12 mt-10 xl:mt-10" data-aos="flip-right" data-aos-duration="1200" data-aos-offset="400" data-aos-easing="linear">
         <img src="./img/Apps.png" class="xl:max-w-lg my:max-w-md">
       </div>
 
@@ -424,14 +476,14 @@
   <!----------------  END CONTENT5   ------------------------->
 
   <!------------------   CUSTOMER  ----------------------->
-  <div class="leftRightMargin">
+  <div class="leftRightMargin my-9">
     <div class="flex justify-center">
-      <h1 class="h1Class">What our clients</h1>
+      <h1 class="h1Class" data-aos="fade-down" data-aos-duration="1200" data-aos-easing="linear">What our clients</h1>
       <h1 class="h1Class relative ml-4">Says <img src="./img/underlineElement.png" class="absolute top-5 h-6 opacity-60"></h1>
     </div>
 
    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-10 mt-8">
-      <div class="rounded-md shadow-2xl dark:shadow-fordark p-4">
+      <div class="rounded-md shadow-2xl dark:shadow-fordark p-4" data-aos="fade-right" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
         <div>
           <i class="fa-solid fa-quote-left text-6xl text-primary-600"></i>
         </div>
@@ -449,7 +501,7 @@
         </div>
       </div>
 
-      <div class="rounded-md shadow-2xl p-4 text-white dark:shadow-fordark bg-primary-300">
+      <div class="rounded-md shadow-2xl p-4 text-white dark:shadow-fordark bg-primary-300" data-aos="fade-up" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
         <div>
           <i class="fa-solid fa-quote-left text-6xl text-white"></i>
         </div>
@@ -467,7 +519,7 @@
         </div>
       </div>
 
-      <div class="rounded-md shadow-2xl p-4 text-white dark:shadow-fordark bg-primary-300">
+      <div class="rounded-md shadow-2xl p-4 text-white dark:shadow-fordark bg-primary-300" data-aos="fade-left" data-aos-duration="1400" data-aos-offset="400" data-aos-easing="linear">
         <div>
           <i class="fa-solid fa-quote-left text-6xl text-white"></i>
         </div>
@@ -587,8 +639,16 @@
       </div>
 
     <!-------------------   END FOOTER   ---------------------->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <!------------------------  AOS LIBRARy JS  ------------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-----------------------  JAVASCRIPT  -------------------->
     <script src="./script.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>

@@ -593,6 +593,11 @@ video {
   margin-right: 1.5rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .ml-3{
   margin-left: 0.75rem;
 }
@@ -607,6 +612,10 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
 }
 
 .mt-14{
@@ -671,10 +680,6 @@ video {
 
 .mt-3{
   margin-top: 0.75rem;
-}
-
-.mt-7{
-  margin-top: 1.75rem;
 }
 
 .mt-5{
@@ -756,6 +761,10 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-16{
+  width: 4rem;
 }
 
 .max-w-3xl{
@@ -1043,12 +1052,16 @@ video {
   transition-duration: 150ms;
 }
 
-.delay-500{
-  transition-delay: 500ms;
+.duration-700{
+  transition-duration: 700ms;
 }
 
 .duration-150{
   transition-duration: 150ms;
+}
+
+.duration-100{
+  transition-duration: 100ms;
 }
 
 .duration-300{
@@ -1059,28 +1072,20 @@ video {
   transition-duration: 200ms;
 }
 
-.duration-100{
-  transition-duration: 100ms;
-}
-
-.duration-500{
-  transition-duration: 500ms;
-}
-
-.duration-1000{
-  transition-duration: 1000ms;
-}
-
-.duration-700{
-  transition-duration: 700ms;
-}
-
 .ease-linear{
   transition-timing-function: linear;
 }
 
 .ease-in{
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.ease-out{
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tabbar{
@@ -1366,16 +1371,12 @@ video {
     margin-right: 1.75rem;
   }
 
-  .lg\:mt-0{
-    margin-top: 0px;
-  }
-
-  .lg\:ml-11{
-    margin-left: 2.75rem;
-  }
-
   .lg\:ml-7{
     margin-left: 1.75rem;
+  }
+
+  .lg\:mt-0{
+    margin-top: 0px;
   }
 
   .lg\:grid-cols-3{
